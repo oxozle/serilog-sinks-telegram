@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Telegram", "Serilog.Sinks.Telegram\Serilog.Sinks.Telegram.csproj", "{1551BC74-B3F0-43CE-BB7A-3BA5989C0080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Telegram.Example", "Serilog.Sinks.Telegram.Example\Serilog.Sinks.Telegram.Example.csproj", "{21B266A5-9AEF-4878-B30E-A5474515568A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1551BC74-B3F0-43CE-BB7A-3BA5989C0080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1551BC74-B3F0-43CE-BB7A-3BA5989C0080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1551BC74-B3F0-43CE-BB7A-3BA5989C0080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1551BC74-B3F0-43CE-BB7A-3BA5989C0080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B266A5-9AEF-4878-B30E-A5474515568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B266A5-9AEF-4878-B30E-A5474515568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B266A5-9AEF-4878-B30E-A5474515568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B266A5-9AEF-4878-B30E-A5474515568A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
