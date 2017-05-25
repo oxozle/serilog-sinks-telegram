@@ -1,7 +1,5 @@
 # Serilog.Sinks.Telegram
 
-----------
-
 [![NuGet Version](https://img.shields.io/nuget/v/Serilog.Sinks.TelegramClient.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.TelegramClient/)
 
 A Serilog sink that writes events as messages to [Telegram](https://telegram.org/).
