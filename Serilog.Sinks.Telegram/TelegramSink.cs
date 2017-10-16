@@ -33,7 +33,8 @@ namespace Serilog.Sinks.Telegram
                 throw new ArgumentNullException(paramName: nameof(token));
 
             FormatProvider = formatProvider;
-            RenderMessageImplementation = renderMessageImplementation;
+            if (renderMessageImplementation != null)
+                RenderMessageImplementation = renderMessageImplementation;
             _chatId = chatId;
             _token = token;
         }
